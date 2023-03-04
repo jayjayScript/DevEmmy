@@ -1,0 +1,15 @@
+{
+  "name": "dev_emmy",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "watch_sass": "sass --watch ./src/scss:./src/css",
+    "build": "sass --no-source-map ./src/scss:./src/css",
+    "watch_tw": "tailwindcss -i input.css -o ./src/css/tail.css --watch",
+    "build_tw": "tailwindcss -i input.css -o ./src/css/tail.css"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
